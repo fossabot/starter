@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "jsx": "preserve",
+        "importHelpers": true,
+        "pretty": true,
+        "sourceMap": true,
+        
+        "strict": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        
+        "lib": [ "es5", "dom", "es2015.core", "es2015.promise", "es2015.collection" ]
+    },
+
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts"
+    ]
+}
